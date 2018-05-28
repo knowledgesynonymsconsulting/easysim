@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario category="test">
+    <title>Scenario 1</title>
+    <avatar>img/img_1.png</avatar>
+    <question qid="q1">
+		<label>Hi, we're moving to a new house next weekend and I am calling to get prices on cable.</label>
+        <image>img/img01.png</image>
+            <answer1 aid="a1q1">Hello, thank you for choosing KS. This is Mary. How may I help you today? 
+               <audio></audio>
+                <y>4</y>
+                <feedback>Your greeting is important and sets the tone for the entire conversation. This was the best choice because it sounds conversational. You greeted the customer, thanked her for choosing KS,  introduced yourself, and asked how you could help.</feedback>
+            </answer1>
+		    <answer2 aid="a2q1">Thank you for choosing KS. This is Mary. How may I help you today?
+               <audio></audio>
+                <y>2</y>
+                <feedback>Your greeting is important and sets the tone for the entire conversation. This was a good choice but could have been better by greeting the &#x9;customer with a Hello, Good Morning, etc.</feedback>
+            </answer2>
+		    <answer3 aid="a3q1">Good Afternoon. This is Mary. How may I help you?
+               <audio></audio>
+                <y>1</y>
+            <feedback>our greeting is important and sets the tone for the entire conversation. This was a good choice, but could have been better by thanking the customer for calling KS.</feedback>
+            </answer3>
+        </question> 
+        
+        <question qid="q2">
+		  <label>This is Kathy Taylor</label>
+            <image>img/img02.png</image>
+            <answer1 aid="a1q2">First let me say congratulations on your new home! I would be happy to help you may I ask who I am speaking with?
+            <image></image>
+            <audio></audio>
+            <y>5</y>
+            <feedback>Good Job! It's important to begin the rapport building process by acknowledging what the customer said. This was the best choice because you acknowledged the customers move to a new home before asking for the customer's name. </feedback>
+            </answer1>
+            <answer2 aid="a2q2">Thank you, Ms Taylor. Do you currently have KS service?
+               <audio></audio>
+                <y>1</y>
+            <feedback>Good Choice! You refer to the customer by name and show you are interested in helping the customer obtain KS services.</feedback>
+            </answer2>
+            <answer3 aid="a3q2">Congratulations! I would be happy to help you with your request. May I ask whom I am speaking with?
+               <audio></audio>
+                <y>3</y>
+            <feedback>It's important to begin the rapport building process by acknowledging what the customer said. This was not a good choice because you did not acknowledge the customer's move to a new house before asking for the customer's name. You appear to be strictly an order taker.</feedback>
+            </answer3>
+        </question>
+	
+        <question qid="q3">
+		  <label>No. We only have DirecTV.</label>
+            <image>img/img03.png</image>
+            <answer1 aid="a1q3">Okay, may I have your new address to confirm that KS offers service in that area?
+              <audio></audio>
+                <y>8</y>
+            <feedback>Good Choice! By explaining the reason for your request you put the customer at ease. She will be comfortable providing you with the requested information.</feedback>
+            </answer1>
+            <answer2 aid="a2q3">May I have your new address so I can see if I'll be able to help you out?
+              <audio></audio>
+                <y>3</y>
+            <feedback>This was not the best choice because you're not telling the customer the reason you need her address. In this case, it is to verify KS offers service in her new neighborhood. Explaining your reason for the request will help put the customer at ease.</feedback>
+            </answer2>
+            <answer3 aid="a3q3">What is your new address?
+             <audio></audio>
+                <y>5</y>
+            <feedback>The question is too abrupt and may put the customer on the defensive. In this instance, it would be best to explain the reason you are requesting the customer's address is to put the customer at ease.</feedback>
+            </answer3>
+        </question> 
+        
+        <question qid="q4">
+		  <label>It's 1075 Greenwood Trail, Cherry Hill, New Jersey.</label>
+          <image>img/img04.png</image>    
+            <answer1 aid="a1q4">Thank you Ms Taylor. I am showing that we do service that neighborhood, and can provide cable television, high-speed Internet and KS digital voice. To ensure that we match you with the services that will give you the most value, May I ask you a few questions?"
+              <audio></audio>
+                <y>5</y>
+            <feedback>Good Choice! You have identified the services available through Comcast and made the customer aware we are focused on providing her the best option. You also asked the customer's permission to continue to ask questions, which sets a nice tone for the conversation.</feedback>
+            </answer1>
+            <answer2 aid="a2q4">Thank You. I am happy to tell you that we do service that neighborhood, and KS can provide cable television, high speed Internet and KS digital voice. To ensure we match you with the products and services that will best suit your needs do you mind if I ask you a few questions?
+              <audio></audio>
+                <y>2</y>
+            <feedback>This is not the best option. The customer may not be aware of all services offered by Comcast. You did, however, ask the customer's permission to continue to ask questions, which sets a nice tone for the conversation.</feedback>
+            </answer2>
+            <answer3 aid="a3q4">What services are you interested in?
+               <audio></audio>
+                <y>3</y>
+            <feedback>This is not a good choice. You need to continually build rapport with &#x9;the customer. A response like this gives the impression that you are not interested &#x9;in what the customer has to say. You are assuming that the customer is familiar &#x9;with all Comcast products and services. </feedback>
+            </answer3>
+        </question> 
+           
+         <question qid="q5">
+		  <label>Let's see… I like those movies on Lifetime, although I don't get to watch them very often.</label>
+            <image>img/img05.png</image> 
+            <answer1 aid="a1q5">Well, you called the right company, because Comcast has different high definition cable packages to choose from depending on your viewing habits. What do you like to watch?
+              <audio></audio>
+                <y>1</y>
+            <feedback>Great Choice: You have acknowledged the customers hesitation while assuring the customer that we have many options to suit her needs.</feedback>
+            </answer1>
+            <answer2 aid="a2q5">Well, I am sure we are cheaper. What do you like to watch?
+              <audio></audio>
+                <y>2</y>
+            <feedback>This is not a good response. This sounds rude and abrupt and insinuates that the customer does not know what she is talking about. In addition, you won't know if we are less expensive until you find out the specifics of what offer the customer is referring to.</feedback>
+            </answer2>
+            <answer3 aid="a3q5">Oh, I think some of those Lifetime movies are fabulous! I have to watch them when I am alone though, because my husband makes fun of me if I start crying. Do you like to watch movies on other channels as well?
+              <audio></audio>
+                <y>5</y>
+            <feedback>Great Choice! This is the best response as you are continuing to build rapport and establish a trusting relationship with the customer.</feedback>
+            </answer3>
+        </question>    
+
+</scenario>
