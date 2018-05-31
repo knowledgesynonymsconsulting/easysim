@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+	<title>KS-scenario 1000000</title>
+	<avatar>img/a1.png</avatar>
+	<question>
+		<label>1000000</label>
+		<image1>1000000</image1>
+		<answer1>1000000<weightage1>10</weightage1>
+			<feedback1>1000000</feedback1>
+		</answer1>
+		<answer2>1000000<weightage2>10</weightage2>
+			<feedback2>1000000</feedback2>
+		</answer2>
+		<answer3>1000000<weightage3>10</weightage3>
+			<feedback3>1000000</feedback3>
+		</answer3>
+	</question>
+	<title>KS-scenario 1000000</title>
+	<avatar>img/a1.png</avatar>
+	<question>
+		<label>1000000</label>
+		<image1>1000000</image1>
+		<answer1>1000000<weightage1>10</weightage1>
+			<feedback1>1000000</feedback1>
+		</answer1>
+		<answer2>1000000<weightage2>10</weightage2>
+			<feedback2>1000000</feedback2>
+		</answer2>
+		<answer3>1000000<weightage3>10</weightage3>
+			<feedback3>1000000</feedback3>
+		</answer3>
+	</question>
+</scenario>
